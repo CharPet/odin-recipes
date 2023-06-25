@@ -1,0 +1,17 @@
+.title {
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.links {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
