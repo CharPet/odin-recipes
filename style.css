@@ -12,6 +12,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-   
-    
+}
+
+.foodtitle {
+    background-color: bisque;
+    font-size: 36px;
 }
