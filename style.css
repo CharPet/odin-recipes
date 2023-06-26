@@ -7,16 +7,23 @@
     text-align: center;
 }
 
+header {
+    border: 0.5rem solid saddlebrown;
+}
+
 .nav-list {
     display: flex;
-   
+    flex-wrap: wrap;
+    gap: 1rem;
+
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .nav-list li {
-    width: max-content;
+   /* flex-grow: 1;
+    flex-shrink: 1; */
 }
 
 .foodtitle {
