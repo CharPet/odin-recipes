@@ -30,3 +30,19 @@ header {
     background-color: bisque;
     font-size: 36px;
 }
+
+.columns {
+    display: flex;
+    gap: 2rem;
+    width: 800px;
+    border: 10px solid firebrick;
+}
+
+.descriptions {
+    padding: 1rem;
+    background: green;
+}
+
+.columns > * {
+    flex: 1;
+}
